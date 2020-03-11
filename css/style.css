@@ -18,6 +18,9 @@ p{
 	margin-bottom: 5%;
   margin-top: 5%;
 }
+img{
+	width: 15vw; height: 15vw;
+}
 
 .line{
 	width : 100px;
