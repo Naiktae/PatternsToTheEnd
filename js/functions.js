@@ -158,6 +158,7 @@ function end(){
 			direction:user[4],
 			life:user[5],
 			survive:user[6],
+			createur:user[7],
 		},
 		error:function(msg,string){
 			alert( "Error !: " + string );

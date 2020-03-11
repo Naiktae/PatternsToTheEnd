@@ -1,5 +1,12 @@
 <?php
-	$image="images/image.png";
+	$user = "root";
+	$pass = "";
+		$link = new PDO('mysql:host=localhost;dbname=patterns', $user, $pass);
+		$result = $link->query('SELECT * FROM img')->rowCount();
+		$nameImg = ($result+1).".png";
+		$linkImg = "images/".($result+1).".png";
+		$link->query('INSERT INTO img VALUES ("'.($result+1).'","'.$nameImg.'"," '.$linkImg.'"," '.$_POST['createur'].'")');
+	$image=$linkImg;
 	$color1=$_POST["color1"];
 	$color2=$_POST["color2"];
 	require_once("srcImageIo.php");
@@ -24,5 +31,5 @@
 		$size = $_POST["size"];
 		require_once("fonctions/taille.php");
 	}
-	echo "<img src='images/image.png' >";
+	echo "<img src='".$linkImg."' >";
 ?>

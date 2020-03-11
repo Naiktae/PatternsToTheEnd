@@ -1,8 +1,8 @@
-var number =0;
-var user = ["","","","","","","",];
+var number = 0;
+var user = ["","","","","","","",""];
 var questions = ["","","","","","","",];
 var answers = ["","","","","","","",];
-var fresque = '<button type="button" class="btn btn-lg btn-outline-secondary mt-4 shadow-sm">Voir la fresque</button>';
+var fresque = '<a href="fresque.php"><button type="button" class="btn btn-lg btn-outline-secondary mt-4 shadow-sm">Voir la fresque</button></a>';
 var download ='<div class="col-md-12 text-center my-5"><a href="images/image.png" download="Image"><button type="button" class="btn btn-lg btn-outline-secondary mt-4 shadow-sm"><i class="fas fa-download mr-3"></i>Télécharger votre image</button></a></div>';
 var graph = "<p>C'est ici que se termine ton histoire ! Voici la représentation graphique de ton aventure !</p>";
 var rules = "<p>Une catastrophe touche la ville, tu n\’as pas le temps et tu dois vite t\’enfuir. <br> Tu es donc seul(e) et tu devras créer ta propre histoire à travers des choix. <br> Malheureusement, tu ne peux pas retourner dans la ville et tu ne peux pas changer tes choix.</p>";
