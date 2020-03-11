@@ -1,5 +1,5 @@
 body{
-	height: 100vh;
+  height: 100vh;
   width: 100vw;
   font-family: 'Source Sans Pro', sans-serif;
   background-color: #DFDBE5;
@@ -7,15 +7,16 @@ body{
 }
 
 h1{
-	font-family: 'Lacquer', sans-serif;
+  font-family: 'Lacquer', sans-serif;
   font-size: 2.9rem;
 }
+
 p{
 	font-size: 1.3rem;
 }
 
 .title-box{
-	margin-bottom: 5%;
+  margin-bottom: 5%;
   margin-top: 5%;
 }
 img{
@@ -33,8 +34,12 @@ button{
 	margin: 0 auto;
 }
 .cc-selector{
-  margin-left:15%;
-  margin-right:15%;
+
+}
+.div-choix{
+  margin-left:1vw;
+  margin-right:1vw;
+  margin-bottom: 5vh;
 }
 .cc-selector input{
 	-webkit-appearance:none;
