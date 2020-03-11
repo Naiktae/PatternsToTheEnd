@@ -169,6 +169,7 @@ function end(){
 			$("#bouton").empty();
 			$("#bouton").append(download);
 			$("#fresque").append(fresque);
+			$("#fresque").append(restart);
 		}
 		});
 }
