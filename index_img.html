@@ -4,15 +4,15 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Patterns to the End</title>
-	<!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!--Font-->
     <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <!--Icons-->
      <link rel="stylesheet" href="lib/font-awesome/css/fontawesome.min.css">
     <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body class="d-flex align-items-center justify-content-center bg-light">
     <div class="container-fluid mr-2">
@@ -24,13 +24,31 @@
         <div class="shadow mx-5 px-5 bg-white">
             <div class="row">
                 <div class="title-box col-md-12 text-center">
-                    <h2>Bienvenue</h2>
+                    <h2>Tu croises une personne au loin sur ton chemin, que fais-tu ?</h2>
                     <div class="line mt-4"></div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
-                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis nulla id mi dignissim, et consequat eros semper. Integer vitae rutrum ligula. Ut accumsan mauris et arcu laoreet, at finibus ligula tempor. Fusce viverra, diam non tristique scelerisque, tortor felis feugiat turpis, a lacinia ipsum nunc non mauris. Mauris pellentesque nisi nisi, nec imperdiet enim placerat at. Mauris pretium congue metus, nec accumsan enim molestie at. Praesent vehicula massa rutrum hendrerit blandit. Vivamus ut bibendum leo. Ut turpis velit, dignissim sed odio sed, finibus congue tellus.</p>
+                <div class="col-md-12">
+                	<form>
+                        <div class="cc-selector d-flex flex-column flex-sm-column flex-md-row flex-lg-row justify-content-between text-center">
+                            <div class="div-choix">
+                                <input id="choix1" type="radio" name="choix" value="choice1"/>
+                                <label class="drinkcard-cc choix-1 shadow" for="choix1"></label>
+                                <h5 class="text-uppercase">choix 1</h5>
+                            </div>
+                            <div class="div-choix"> 
+                                <input id="choix2" type="radio" name="choix" value="choice2"/>
+                                <label class="drinkcard-cc choix-2 shadow" for="choix2"></label>
+                                <h5 class="text-uppercase">choix 2</h5>
+                            </div>
+                            <div class="div-choix">
+                                <input id="choix3" type="radio" name="choix" value="choice3"/>
+                                <label class="drinkcard-cc choix-3 shadow" for="choix3"></label>
+                                <h5 class="text-uppercase">choix 3</h5>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="row">
