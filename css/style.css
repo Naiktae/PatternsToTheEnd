@@ -22,6 +22,10 @@ img{
 	width: 15vw; height: 15vw;
 }
 
+button{
+	font-family: 'Lacquer', sans-serif;
+}
+
 .line{
 	width : 100px;
 	height: 2px;

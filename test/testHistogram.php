@@ -1,0 +1,102 @@
+
+<?php
+	/*! 
+	 * \file testHistogram.php
+	 * \brief create image hitogram
+	 */
+	
+	require_once("../conf/config.php");
+	require_once("src/srcImageIo.php");
+	require_once("src/srcHistogram.php");
+	
+	?>
+
+<html>
+<body>
+
+<H1>Test histogram</H1>
+<p>
+	Build histogram for an original image and its enhanced version
+</p>
+
+
+	<?php
+	
+	// read the image on disk using the imageCreateFromPng GD function
+	$imageSrc = "images/kyoto.png";
+	$T = tabCreateFromPng($path.$imageSrc)
+	or die ("cannot create tab from png");
+	
+	$max= findMax($T);
+	$min= findMin($T);
+	echo "Le min de l'image est $min <br>";
+	echo "Le max de l'image est $max";	
+		
+	// build histogramm
+        $hist =createHistogram($T) 
+        or die("Cannot create histogram");	
+		
+	// create histogram image
+	$Ihist = createImageHistogram( $hist, 300, 200 );
+		
+	// save image on disk
+	$imageHist = "results/kyotoHist.png";
+	imagePng($Ihist,$path.$imageHist)
+	or die("cannot create the image res");
+		
+	// enhance the image extension
+	$Text=dynMaxExtension($T);
+	
+	// write the image on the disk
+	$imageRes = "results/kyotoExt.png";
+	pngCreateFromTab($Text,$path.$imageRes);	
+	
+	// build histogramm
+	$histext =createHistogram($Text)
+	  or die("Cannot create histogram for enhanced image");   	
+		
+	// create histogram image
+	$Ihistext = createImageHistogram( $histext, 300, 200 )
+	  or die ("cannot create image for histogram");
+		
+	// save image on disk
+	$imageResHist = "results/kyotoExtHist.png";
+        imagePng($Ihistext,$path.$imageResHist)
+ 	or die("cannot create the image res");
+		
+	
+		
+		
+	
+	// free memory
+	unset($T);
+	unset($Text);
+	?>
+
+<table border="0">
+<tr>
+<th>Original image</td>
+<th>Enhanced image</td>
+</tr>
+<tr>
+<!--Here we need url-->
+<td><img src="<?php echo $url.$imageSrc;?>"/></td>
+<td><img src="<?php echo $url.$imageRes;?>"/></td>
+</tr>
+<tr>
+<!--Here we need url-->
+<td><img src="<?php echo $url.$imageHist;?>"/></td>
+<td><img src="<?php echo $url.$imageResHist;?>"/></td>
+</tr>
+
+<tr>
+<td><?php echo $imageSrc;?></td>
+<td><?php echo $imageRes;?></td>
+</tr>
+</table>
+
+
+
+
+</body>
+</html>
