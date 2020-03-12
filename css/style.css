@@ -36,15 +36,12 @@ button{
 	background: black;
 	margin: 0 auto;
 }
-.cc-selector{
-
-}
 .div-choix{
   margin-left:1vw;
   margin-right:1vw;
   margin-bottom: 5vh;
 }
-.cc-selector input{
+input{
 	-webkit-appearance:none;
     -moz-appearance:none;
      appearance:none;
@@ -76,11 +73,16 @@ button{
 #no{background-image:url(../img/no.svg);}
 
 
-.cc-selector input:active +.drinkcard-cc{opacity: 1;}
-.cc-selector input:checked +.drinkcard-cc{
-    -webkit-filter: none;
-       -moz-filter: none;
-            filter: none;
+.cc-selected {
+	opacity: 1;
+	-webkit-filter:none;
+    -moz-filter:none;
+    filter:none;
+}
+.cc-unselected {
+	    -webkit-filter: grayscale(.5) opacity(.7);
+       -moz-filter: grayscale(.5) opacity(.7);
+            filter: grayscale(.5) opacity(.7);
 }
 .drinkcard-cc{
     cursor:pointer;
@@ -91,9 +93,6 @@ button{
     -webkit-transition: all 100ms ease-in;
        -moz-transition: all 100ms ease-in;
             transition: all 100ms ease-in;
-    -webkit-filter: grayscale(.5) opacity(.7);
-       -moz-filter: grayscale(.5) opacity(.7);
-            filter: grayscale(.5) opacity(.7);
 }
 .drinkcard-cc:hover{
     -webkit-filter: opacity(.9);
