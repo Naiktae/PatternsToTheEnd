@@ -18,7 +18,7 @@
 	</style>
 </head>
 <body class="d-flex justify-content-center container-fluid mr-n2 mt-2">
-	<div class="row">
+	<div class="row" id="fresque">
 	<?php
 	$user = "root";
 	$pass = "";
