@@ -12,7 +12,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");	
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "brown";
+			user[0] = "bow";
 			lastClicked = "#bow";
 		});
 		$("#axe").click(function(){
@@ -20,7 +20,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "grey";
+			user[0] = "axe";
 			lastClicked = "#axe";
 		});
 		$("#food").click(function(){
@@ -28,7 +28,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "black";
+			user[0] = "food";
 			lastClicked = "#food";
 		});
 		$("#bottle").click(function(){
@@ -36,7 +36,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "lightblue";
+			user[0] = "bottle";
 			lastClicked = "#bottle";
 		});
 		$("#bag").click(function(){
@@ -44,7 +44,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "orange";
+			user[0] = "bag";
 			lastClicked = "#bag";
 		});
 		$("#map").click(function(){
@@ -52,7 +52,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "purple";
+			user[0] = "map";
 			lastClicked = "#map";
 		});
 		$("#medic").click(function(){
@@ -60,7 +60,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "white";
+			user[0] = "medic";
 			lastClicked = "#medic";
 		});
 		$("#plush").click(function(){
@@ -68,7 +68,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[0] = "pink";
+			user[0] = "plush";
 			lastClicked = "#plush";
 		});
 		break;
@@ -78,7 +78,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[1] = "green";
+			user[1] = "forest";
 			lastClicked = "#forest";
 		});
 		$("#cave").click(function(){
@@ -86,7 +86,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[1] = "yellow";
+			user[1] = "cave";
 			lastClicked = "#cave";
 		});
 		$("#sea").click(function(){
@@ -94,7 +94,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[1] = "blue";
+			user[1] = "sea";
 			lastClicked = "#sea";
 		});
 		$("#hills").click(function(){
@@ -102,7 +102,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[1] = "red";
+			user[1] = "hills";
 			lastClicked = "#hills";
 		});
 		break;
@@ -130,7 +130,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[3] = "petit";
+			user[3] = "wood";
 			lastClicked = "#wood";
 		});
 		$("#clay").click(function(){
@@ -138,7 +138,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[3] = "moyen";
+			user[3] = "clay";
 			lastClicked = "#clay";
 		});
 		$("#stone").click(function(){
@@ -146,7 +146,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[3] = "grand";
+			user[3] = "stone";
 			lastClicked = "#stone";
 		});
 		break;
@@ -156,7 +156,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[4] = "droite";
+			user[4] = "taming";
 			lastClicked = "#taming";
 		});
 		$("#farming").click(function(){
@@ -164,7 +164,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[4] = "gauche";
+			user[4] = "farming";
 			lastClicked = "#farming";
 		});
 		$("#hunting").click(function(){
@@ -172,7 +172,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[4] = "haut";
+			user[4] = "hunting";
 			lastClicked = "#hunting";
 		});
 		$("#foraging").click(function(){
@@ -180,7 +180,7 @@ function question(number){
 			$(lastClicked).addClass("cc-unselected");
 			$(this).addClass("cc-selected");
 			$(this).removeClass("cc-unselected");
-			user[4] = "bas";
+			user[4] = "foraging";
 			lastClicked = "#foraging";
 		});
 		break;

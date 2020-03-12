@@ -1,10 +1,10 @@
 <?php
 		$Tinit = tabCreateFromPng($image);
 		$Tmodele = array(array(array()));
-		$Taille["moyen"][0]=50;
-		$Taille["grand"][0]=25;
-		$Taille["moyen"][1]=25;
-		$Taille["grand"][1]=37;
+		$Taille["clay"][0]=50;
+		$Taille["stone"][0]=25;
+		$Taille["clay"][1]=25;
+		$Taille["stone"][1]=37;
 		$T = array(array(array()));
 			for ($i = 0,$w=$Taille[$size][0] ; $i < $w ; $i++ ) {
 		  		for ($j = 0 , $h=$Taille[$size][0]; $j < $h ; $j++ )
@@ -14,7 +14,7 @@
 		       		$Tmodele[$i][$j][2]=$Tinit[$i+$Taille[$size][1]][$j+$Taille[$size][1]][2];
 		        }
 		    }
-		    if ($size=="moyen") {
+		    if ($size=="clay") {
 		    	for ($i = 0,$k=0,$w=100 ; $i < $w ; $i++,$k++ ) {
 			  		for ($j = 0,$l=0 , $h=100; $j < $h ; $j++,$l++ )
 			        {
@@ -31,7 +31,7 @@
 		        $i+=1;
 		    }
 		    }
-		    elseif ($size=="grand") {
+		    elseif ($size=="stone") {
 		    	for ($i = 0,$k=0,$w=100 ; $i < $w ; $i++,$k++ ) {
 			  		for ($j = 0,$l=0 , $h=100; $j < $h ; $j++,$l++ )
 			        {
