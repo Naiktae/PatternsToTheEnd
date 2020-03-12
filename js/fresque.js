@@ -15,7 +15,7 @@ $("img").click(function(){
 			console.log(data);
 			$('#selection').css("display","block");
 			$('#box-img').css("display","block");
-			$('#box-img').prepend(data);
+			$('#box-img').append(data);
 		}
 	});
 });

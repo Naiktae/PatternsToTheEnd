@@ -5,6 +5,7 @@
 		$result = $link->query('SELECT * FROM img')->rowCount();
 		$nameImg = ($result+1).".png";
 		$linkImg = "images/".($result+1).".png";
+		$link->query('INSERT INTO variables VALUES ("'.($result+1).'","'.$_POST["color1"].'"," '.$_POST["color2"].'"," '.$_POST['motif'].'"," '.$_POST['size'].'"," '.$_POST['direction'].'"," '.$_POST['life'].'"," '.$_POST['survive'].'")');
 		$link->query('INSERT INTO img VALUES ("'.($result+1).'","'.$nameImg.'"," '.$linkImg.'"," '.$_POST['createur'].'")');
 	$image=$linkImg;
 	$color1=$_POST["color1"];

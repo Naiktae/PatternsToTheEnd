@@ -54,3 +54,28 @@ h5{
   height: 90vh;
   border-radius: 30px;
 }
+#bow{background-image:url(../img/bow.svg);}
+#axe{background-image:url(../img/axe.svg);}
+#food{background-image:url(../img/food.svg);}
+#bottle{background-image:url(../img/bottle.svg);}
+#bag{background-image:url(../img/bag.svg);}
+#map{background-image:url(../img/map.svg);}
+#medic{background-image:url(../img/medic.svg);}
+#plush{background-image:url(../img/plush.svg);}
+#forest{background-image:url(../img/forest.svg);}
+#cave{background-image:url(../img/cave.svg);}
+#sea{background-image:url(../img/sea.svg);}
+#hills{background-image:url(../img/hills.svg);}
+#diffus{background-image:url(../img/diffus.svg);}
+#mariniere{background-image:url(../img/mariniere.svg);}
+#wood{background-image:url(../img/wood.svg);}
+#clay{background-image:url(../img/clay.svg);}
+#stone{background-image:url(../img/stone.svg);}
+#taming{background-image:url(../img/taming.svg);}
+#farming{background-image:url(../img/farming.svg);}
+#hunting{background-image:url(../img/hunting.svg);}
+#foraging{background-image:url(../img/foraging.svg);}
+#kill{background-image:url(../img/kill.svg);}
+#live{background-image:url(../img/live.svg);}
+#yes{background-image:url(../img/yes.svg);}
+#no{background-image:url(../img/no.svg);}

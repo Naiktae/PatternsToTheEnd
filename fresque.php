@@ -37,42 +37,6 @@
 	</div>
 	<div class="row" id="selection">
 		<div id="box-img" class="offset-2 col-8 offset-2 text-center my-5 py-5">
-			<button type="button" class="close" aria-label="Close" data-dismiss="selection">
- 				<span aria-hidden="true">&times;</span>
-			</button>
-			<div class="row">
-	            <div class="offset-1 offset-lg-3 col-10 col-lg-6 offset-1 offset-lg-3 my-4 shadow py-2 bg-white text-center">
-	                <h1>Pseudo</h1>
-	            </div>
-	        </div>
-	        <div class="row">
-		        <div class="col-md-12 text-center">
-		        	<a href="images/image.png" download="Image">
-		        		<button type="button" class="btn btn-lg btn-outline-secondary shadow-sm my-4">
-		        			<i class="fas fa-download mr-3"></i>Télécharger cette image</button>
-		        	</a>
-		        </div>
-	    	</div>
-	        <div class="row">
-	            <div class="offset-1 col-10 offset-1 d-flex flex-column text-center mt-3 bg-white shadow pt-3 pb-4" id="choice-box">
-	            	<div class="row">
-	            		<div class="col-12 text-center">
-	                		<h5>Les choix</h5>
-	            		</div>
-	       			</div>
-		       		<div class="row">
-		       			<div class="col-12 text-center" id="choice-img-box">
-			            	<img src="http://placekitten.com/200/200"/>
-			            	<img src="http://placekitten.com/200/200"/>
-			            	<img src="http://placekitten.com/200/200"/>
-			            	<img src="http://placekitten.com/200/200"/>
-			            	<img src="http://placekitten.com/200/200"/>
-			            	<img src="http://placekitten.com/200/200"/>
-			            	<img src="http://placekitten.com/200/200"/>
-		            	</div>
-		            </div>
-                </div>
-       		</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
