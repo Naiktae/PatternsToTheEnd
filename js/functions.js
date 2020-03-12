@@ -285,7 +285,7 @@ function end(){
 			$("#rules").append(data);
 			$("#question").append(graph);
 			$("#bouton").empty();
-			$("#bouton").append(download);
+			$("#fresque").append(fresqueTxt);
 			$("#fresque").append(fresque);
 			$("#fresque").append(restart);
 		}

@@ -3,6 +3,7 @@ var lastClicked;
 var user = ["","","","","","","",""];
 var questions = ["","","","","","","",];
 var answers = ["","","","","","","",];
+var fresqueTxt = '<p>Regarde la fresque pour comparer tes choix avec ceux des autres joueurs !</p>';
 var fresque = '<a href="fresque.php"><button type="button" class="btn btn-lg btn-outline-secondary shadow-sm mt-5">Voir la fresque</button></a>';
 var download ='<div class="col-md-12 text-center"><a href="images/image.png" download="Image"><button type="button" class="btn btn-lg btn-outline-secondary mt-4 shadow-sm"><i class="fas fa-download mr-3"></i>Télécharger votre image</button></a></div>';
 var restart ='<div class="col-md-12 text-center"><a href="index.html"><button type="button" class="btn btn-lg btn-outline-secondary mt-4 shadow-sm"></i>Rejouer<i class="fas fa-redo ml-3"></button></a></div>';
