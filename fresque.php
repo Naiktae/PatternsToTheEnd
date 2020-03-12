@@ -41,24 +41,36 @@
  				<span aria-hidden="true">&times;</span>
 			</button>
 			<div class="row">
-	            <div class="offset-3 offset-md-4 col-6 col-md-4 col-lg-4 offset-3 offset-md-4 my-5 shadow py-2 bg-white text-center">
+	            <div class="offset-1 offset-lg-3 col-10 col-lg-6 offset-1 offset-lg-3 my-4 shadow py-2 bg-white text-center">
 	                <h1>Pseudo</h1>
 	            </div>
 	        </div>
 	        <div class="row">
-		        <div class="col-md-12 text-center my-5"><a href="images/image.png" download="Image"><button type="button" class="btn btn-lg btn-outline-secondary shadow-sm"><i class="fas fa-download mr-3"></i>Télécharger cette image</button></a>
+		        <div class="col-md-12 text-center">
+		        	<a href="images/image.png" download="Image">
+		        		<button type="button" class="btn btn-lg btn-outline-secondary shadow-sm my-4">
+		        			<i class="fas fa-download mr-3"></i>Télécharger cette image</button>
+		        	</a>
 		        </div>
 	    	</div>
-
 	        <div class="row">
-	            <div class="col-12 d-flex flex-wrap flex-row justify-content-center align-items-center text-center mt-5" id="choice-box">
-	            	<img src="http://placekitten.com/200/200"/>
-	            	<img src="http://placekitten.com/200/200"/>
-	            	<img src="http://placekitten.com/200/200"/>
-	            	<img src="http://placekitten.com/200/200"/>
-	            	<img src="http://placekitten.com/200/200"/>
-	            	<img src="http://placekitten.com/200/200"/>
-	            	<img src="http://placekitten.com/200/200"/>
+	            <div class="offset-1 col-10 offset-1 d-flex flex-column text-center mt-3 bg-white shadow pt-3 pb-4" id="choice-box">
+	            	<div class="row">
+	            		<div class="col-12 text-center">
+	                		<h5>Les choix</h5>
+	            		</div>
+	       			</div>
+		       		<div class="row">
+		       			<div class="col-12 text-center" id="choice-img-box">
+			            	<img src="http://placekitten.com/200/200"/>
+			            	<img src="http://placekitten.com/200/200"/>
+			            	<img src="http://placekitten.com/200/200"/>
+			            	<img src="http://placekitten.com/200/200"/>
+			            	<img src="http://placekitten.com/200/200"/>
+			            	<img src="http://placekitten.com/200/200"/>
+			            	<img src="http://placekitten.com/200/200"/>
+		            	</div>
+		            </div>
                 </div>
        		</div>
 		</div>
