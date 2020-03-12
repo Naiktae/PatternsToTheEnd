@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  mer. 11 mars 2020 à 17:01
+-- Généré le :  jeu. 12 mars 2020 à 10:05
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `img` (
   `lien` varchar(50) NOT NULL,
   `createur` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
 
 --
 -- Déchargement des données de la table `img`
@@ -45,7 +45,13 @@ INSERT INTO `img` (`id`, `nom`, `lien`, `createur`) VALUES
 (1, '1.png', ' images/1.png', ' Dylan'),
 (2, '2.png', ' images/2.png', ' Potichat'),
 (3, '3.png', ' images/3.png', ' Sophie'),
-(4, '4.png', ' images/4.png', ' Imzy');
+(4, '4.png', ' images/4.png', ' Imzy'),
+(5, '5.png', ' images/5.png', ' Naik'),
+(6, '6.png', ' images/6.png', ' Law'),
+(7, '7.png', ' images/7.png', ' Dylan'),
+(8, '8.png', ' images/8.png', ' Toto'),
+(9, '9.png', ' images/9.png', ' Ok'),
+(10, '10.png', ' images/10.png', ' Lol');
 
 -- --------------------------------------------------------
 
