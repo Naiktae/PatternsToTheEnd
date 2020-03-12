@@ -289,5 +289,5 @@ function end(){
 			$("#fresque").append(fresque);
 			$("#fresque").append(restart);
 		}
-		});
+	});
 }
