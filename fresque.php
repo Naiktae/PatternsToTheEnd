@@ -9,15 +9,17 @@
   	 <!--Font-->
     <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--Icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 	<!--CSS-->
 	<link rel="stylesheet" href="css/fresque.css">
 	<style type="text/css">
 		img {
-			height:19.83vw;
+			height:19.5vw;
 		}
 	</style>
 </head>
-<body class="d-flex justify-content-center container-fluid mr-n2 mt-2">
+<body class="d-flex flex-wrap justify-content-center container-fluid">
 	<div class="row" id="fresque">
 	<?php
 	$user = "root";
@@ -35,6 +37,11 @@
 
 	?>
 	</div>
+	<div class="row" id="rejouer">
+			<div class="my-5">
+				<a href="index.html"><button type="button" class="btn btn-lg btn-outline-secondary shadow-sm">Rejouer<i class="fas fa-redo ml-3"></i></button></a>
+			</div>
+	</div>
 	<div class="row" id="selection">
 		<div id="box-img" class="offset-2 col-8 offset-2 text-center my-5 py-5">
 		</div>
@@ -42,6 +49,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <script type="text/javascript" src="js/var.js"></script>
     <script type="text/javascript" src="js/fresque.js"></script>
 </body>
 </html>

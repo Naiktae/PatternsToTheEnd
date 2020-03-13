@@ -46,6 +46,10 @@ h5{
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
+#fresque{
+  width: 100%;
+  height: 100%;
+}
 #fresque img:hover{
     cursor: pointer;
       -webkit-filter: opacity(.9);

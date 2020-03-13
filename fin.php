@@ -28,7 +28,7 @@
 		require_once("fonctions/random.php");
 	}
 	//4eme étape
-	if ($_POST["size"]=="moyen" || $_POST["size"]=="grand") {
+	if ($_POST["size"]=="clay" || $_POST["size"]=="stone") {
 		$size = $_POST["size"];
 		require_once("fonctions/taille.php");
 	}

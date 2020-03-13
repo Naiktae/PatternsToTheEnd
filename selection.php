@@ -6,7 +6,7 @@
 		    $img = $link->query('SELECT * from img WHERE id = "'.$_POST["id"].'"')->fetchAll();
 		    $variables = $link->query('SELECT * from variables WHERE id = "'.$_POST["id"].'"')->fetchAll();
 		       echo '<img src="'.$img[0]["lien"].'" id="j'.$img[0]["id"].'">
-		        <button type="button" class="close" aria-label="Close" data-dismiss="selection">
+		        <button type="button" class="close" id="close">
  				<span aria-hidden="true">&times;</span>
 			</button>
 			<div class="row">

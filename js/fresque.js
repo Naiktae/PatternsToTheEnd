@@ -16,14 +16,11 @@ $("img").click(function(){
 			$('#selection').css("display","block");
 			$('#box-img').css("display","block");
 			$('#box-img').append(data);
+			$("#close").click(function(){
+				$('#box-img').empty();
+				$('#box-img').css("display","none");
+				$('#selection').css("display","none");
+			});
 		}
 	});
 });
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-	$('#selection').css("display","none");
-}

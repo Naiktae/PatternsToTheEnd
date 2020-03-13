@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  jeu. 12 mars 2020 à 22:12
+-- Généré le :  ven. 13 mars 2020 à 10:55
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -42,9 +42,22 @@ CREATE TABLE IF NOT EXISTS `img` (
 --
 
 INSERT INTO `img` (`id`, `nom`, `lien`, `createur`) VALUES
-(1, '1.png', ' images/1.png', ' Dylan'),
-(2, '2.png', ' images/2.png', ' Vincent'),
-(3, '3.png', ' images/3.png', ' Maxime');
+(1, '1.png', ' images/1.png', ' Coronavirus'),
+(2, '2.png', ' images/2.png', ' Dylan'),
+(3, '3.png', ' images/3.png', ' NaÃ¯k'),
+(4, '4.png', ' images/4.png', ' Olympe'),
+(5, '5.png', ' images/5.png', ' ismail'),
+(6, '6.png', ' images/6.png', ' fresque de liantsoa'),
+(7, '7.png', ' images/7.png', ' Sophie'),
+(8, '8.png', ' images/8.png', ' Ã‰bola'),
+(9, '9.png', ' images/9.png', ' Alimatou'),
+(10, '10.png', ' images/10.png', ' Sarah'),
+(11, '11.png', ' images/11.png', ' GaÃ«lle'),
+(12, '12.png', ' images/12.png', ' Vincent'),
+(13, '13.png', ' images/13.png', ' Mathieu'),
+(14, '14.png', ' images/14.png', ' Emilie'),
+(15, '15.png', ' images/15.png', ' ChloÃ©'),
+(16, '16.png', ' images/16.png', ' liv');
 
 -- --------------------------------------------------------
 
@@ -70,9 +83,22 @@ CREATE TABLE IF NOT EXISTS `variables` (
 --
 
 INSERT INTO `variables` (`id`, `color1`, `color2`, `motif`, `size`, `direction`, `life`, `survive`) VALUES
-(1, 'bottle', 'forest', 'mariniere', 'clay', 'farming', 'live', 'yes'),
-(2, 'bottle', 'hills', 'mariniere', 'clay', 'farming', 'live', 'no'),
-(3, 'axe', 'forest', 'diffus', 'wood', 'foraging', 'live', 'yes');
+(1, 'food', 'sea', 'mariniere', 'wood', 'farming', 'live', 'no'),
+(2, 'bottle', 'forest', 'mariniere', 'clay', 'farming', 'live', 'yes'),
+(3, 'bag', 'hills', 'diffus', 'clay', 'hunting', 'kill', 'yes'),
+(4, 'plush', 'cave', 'diffus', 'stone', 'foraging', 'live', 'no'),
+(5, 'bag', 'cave', 'diffus', 'clay', 'foraging', 'live', 'yes'),
+(6, 'bottle', 'sea', 'mariniere', 'stone', 'taming', 'live', 'yes'),
+(7, 'plush', 'hills', 'mariniere', 'stone', 'taming', 'live', 'yes'),
+(8, 'axe', 'forest', 'diffus', 'clay', 'hunting', 'kill', 'no'),
+(9, 'axe', 'hills', 'mariniere', 'clay', 'hunting', 'live', 'yes'),
+(10, 'map', 'hills', 'diffus', 'wood', 'taming', 'live', 'yes'),
+(11, 'bag', 'sea', 'diffus', 'wood', 'farming', 'kill', 'yes'),
+(12, 'bottle', 'hills', 'mariniere', 'clay', 'farming', 'live', 'no'),
+(13, 'axe', 'forest', 'diffus', 'wood', 'hunting', 'kill', 'yes'),
+(14, 'map', 'hills', 'mariniere', 'clay', 'foraging', 'live', 'no'),
+(15, 'bow', 'hills', 'diffus', 'wood', 'foraging', 'live', 'no'),
+(16, 'axe', 'hills', 'diffus', 'wood', 'hunting', 'live', 'yes');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
